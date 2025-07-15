@@ -1,0 +1,60 @@
+a{background-color: darkgray;
+color-white
+text-align: center;
+display: inline-block;
+padding: 12px 25px;
+text-decoration: none;
+
+}
+a:hover{background-color: aquamarine;}
+#active {
+    background-color: sandybrown;}
+    #P1{
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 20;}
+    #P2{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin-left: 20;}
+        #P3{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            margin-left: 20;}
+            #P4{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                margin-left: 20;}
+                #first{font-style: italic;}
+                #Seconf{text-emphasis-color: red;}
+  
+                body {
+                    background-color: #a4a7a2; /* Light gray background */
+                    color: #333; /* Text color */
+                    font-family: Arial, sans-serif;
+                }       
+                .main-content {
+                    margin-left: 270px; /* Push main content to the right */
+                    padding: 20px;
+                }        
+                body {
+                    background: linear-gradient(270deg, #a2a1a1, #aaaba3);
+                    background-size: 400% 400%;
+                    animation: gradientAnimation 6s ease infinite;
+                }
+                
+                @keyframes gradientAnimation {
+                    0% { background-position: 0% 50%; }
+                    50% { background-position: 100% 50%; }
+                    100% { background-position: 0% 50%; }
+                }
+                .sidebar {
+                    width: 150px; /* Sidebar width */
+                    height: 100vh; /* Full height */
+                    background-color: #f4f4f4; /* Light gray background */
+                    border-right: 3px solid #3498db; /* Blue right border */
+                    padding: 20px;
+                    position: fixed; /* Keeps it fixed on the left */
+                    top: 0;
+                    left: 0;
+                    overflow-y: auto; /* Scroll if content is too long */
+                }
+                
+                /* Main content */
+                .main-content {
+                    margin-left: 100px; /* Push content to the right (250px sidebar + 20px gap) */
+                    padding: 20px;
+                }
